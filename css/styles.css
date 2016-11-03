@@ -1,0 +1,155 @@
+
+.midle-contriner{
+	overflow: hidden;
+    margin: 0 auto;
+    max-width: 960px;
+}
+h1{
+	color: #555555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+h2{
+	color: #555555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+h3{
+	color: #555555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+h4{
+	color: #555555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+h5{
+	color: #555555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+h6{
+	color: #555555;
+}
+li{
+	list-style-type: none;
+}
+.block1 h5{
+	font-family: 'Montserrat Light', arial;
+}	
+.block1 ul{
+	padding-left: 0px;
+}
+.block1 li{
+	display: inline-block;
+}
+.block1 li:nth-child(2){
+	margin: 0px 20px;
+}
+.block1 li a{
+	color: #000;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.block1 li a:link { /*не работает почему то */
+	color: #cbb7a0; 
+}	
+.block1 li a:hover{
+	color: #cbb7a0; 
+	text-decoration: underline;
+}	
+.block2 h5{
+	font-family: 'Montserrat Light', arial;
+}
+
+.block2 ul{
+	padding-left: 0px;
+}
+.block2 li{
+	display: inline-block;
+}
+.block2 li:nth-child(2){
+	margin: 0px 20px;
+}
+.block2 li a{
+	color: #000;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.block2 li a:link { /*не работает почему то */
+	color: #cbb7a0; 
+}	
+.block2 li a:hover{
+	color: #cbb7a0; 
+	text-decoration: underline;
+}
+
+.block3 ul{
+	padding-left: 0px;
+}
+.block3 li{
+	margin-top: 10px;
+}
+.block3 li h5{
+	margin-left: 40px;
+	font-family: 'Montserrat Light', arial;
+	display: inline-block;
+	vertical-align: 5px;
+}
+.block4{
+	border-left: 12px solid #eaeeee;
+}
+.block4 h5{
+	margin-left: 10px;
+	font-family: 'Montserrat Light', arial;
+}
+.block4 p{
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+}
+.block5 h5{
+	margin-top: 50px;
+	margin-bottom: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+.block5 input{
+	height: 37px;
+	width: 400px;
+	background:  #eaeeee;
+	border: 0px;
+}
+.block5 button{
+	background: #998675;
+	border-radius: 5px;
+	padding: 12px;
+	border:0px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+.block6 h5{
+	margin-top: 50px;
+	margin-bottom: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+.block6 input{
+	height: 63px;
+	width: 555px;
+	background:  #eaeeee;
+	border: 0px;
+}
+.block6 button{
+	background: #998675;
+	border-radius: 5px;
+	padding: 25px;
+	border:0px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+				
