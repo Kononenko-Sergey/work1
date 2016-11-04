@@ -1,4 +1,16 @@
 
+@font-face{
+	 font-family: 'Montserrat-light'; 
+    src: url(../fonts/Montserrat-light.ttf); 
+   }
+   @font-face{
+	 font-family: 'Montserrat-Regular'; 
+    src: url(../fonts/Montserrat-Regular.ttf); 
+   }
+body{
+	line-height: 1.2;
+	font-size: 16px;
+}
 .midle-contriner{
 	overflow: hidden;
     margin: 0 auto;
@@ -8,105 +20,96 @@ h1{
 	color: #555555;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
+	line-height: 1.5;
+	font-size:  52px;
 }
 h2{
 	color: #555555;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
+	line-height: 1.5;
+	font-size:  30px;
 }
 h3{
 	color: #555555;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+	line-height: 1.5;
+	font-size: 24px;
 }
 h4{
 	color: #555555;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+	line-height: 1.5;
+	font-size: 28px;
 }
 h5{
 	color: #555555;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
+	line-height: 1.5;
+	font-size: 20px;
 }
 h6{
+	font-family: 'Montserrat Light', arial;
 	color: #555555;
+	line-height: 1.5;
+	font-size: 14px;
 }
 li{
 	list-style-type: none;
+	display: inline-block;
 }
-.block1 h5{
+p{
 	font-family: 'Montserrat Light', arial;
 }	
 .block1 ul{
 	padding-left: 0px;
 }
-.block1 li{
-	display: inline-block;
-}
 .block1 li:nth-child(2){
 	margin: 0px 20px;
 }
-.block1 li a{
+a {
+color: #cbb7a0;
+text-decoration: none;
+font-family: 'Montserrat Light', sans-serif;
+}
+a:hover {
+text-decoration: underline;
+}
+b {
+	font-family: 'Montserrat-Regular', sans-serif;
 	color: #000;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-}
-.block1 li a:link { /*не работает почему то */
-	color: #cbb7a0; 
 }	
-.block1 li a:hover{
-	color: #cbb7a0; 
-	text-decoration: underline;
-}	
-.block2 h5{
-	font-family: 'Montserrat Light', arial;
+.block2 {
+	font-size: 14px;
 }
-
 .block2 ul{
 	padding-left: 0px;
-}
-.block2 li{
-	display: inline-block;
 }
 .block2 li:nth-child(2){
 	margin: 0px 20px;
 }
-.block2 li a{
-	color: #000;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-}
-.block2 li a:link { /*не работает почему то */
-	color: #cbb7a0; 
-}	
-.block2 li a:hover{
-	color: #cbb7a0; 
-	text-decoration: underline;
-}
-
 .block3 ul{
 	padding-left: 0px;
-}
-.block3 li{
-	margin-top: 10px;
 }
 .block3 li h5{
 	margin-left: 40px;
 	font-family: 'Montserrat Light', arial;
 	display: inline-block;
 	vertical-align: 5px;
+	line-height: 1.5;
 }
 .block4{
 	border-left: 12px solid #eaeeee;
 }
-.block4 h5{
-	margin-left: 10px;
-	font-family: 'Montserrat Light', arial;
-}
 .block4 p{
-	font-family: 'Montserrat', sans-serif;
 	margin-left: 10px;
+}
+.block4 span{
+	margin-left: 10px;
+	font-family: 'Montserrat-Regular', sans-serif;
 }
 .block5 h5{
 	margin-top: 50px;
@@ -114,6 +117,8 @@ li{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	color: #000;
+	line-height: 1.5;
+	font-size: 14px;
 }
 .block5 input{
 	height: 37px;
@@ -129,18 +134,20 @@ li{
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-}
+}  
 .block6 h5{
 	margin-top: 50px;
 	margin-bottom: 5px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	color: #000;
+	line-height: 1.5;
+	font-size: 14px;
 }
 .block6 input{
 	height: 63px;
 	width: 555px;
-	background:  #eaeeee;
+	background: #eaeeee;
 	border: 0px;
 }
 .block6 button{
@@ -150,6 +157,6 @@ li{
 	border:0px;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 800;
 }
 				
