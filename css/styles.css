@@ -50,6 +50,7 @@ h5{
 	font-weight: 500;
 	line-height: 1.5;
 	font-size: 20px;
+	color: #000;
 }
 h6{
 	font-family: 'Montserrat Light', arial;
@@ -99,7 +100,6 @@ b {
 	font-family: 'Montserrat Light', arial;
 	display: inline-block;
 	vertical-align: 5px;
-	line-height: 1.5;
 }
 .block4{
 	border-left: 12px solid #eaeeee;
@@ -116,8 +116,6 @@ b {
 	margin-bottom: 5px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	color: #000;
-	line-height: 1.5;
 	font-size: 14px;
 }
 .block5 input{
@@ -140,8 +138,6 @@ b {
 	margin-bottom: 5px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	color: #000;
-	line-height: 1.5;
 	font-size: 14px;
 }
 .block6 input{
